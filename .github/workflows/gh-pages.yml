@@ -1,8 +1,5 @@
 name: Publish to GH Pages
-#on:
-#  push:
-#    branches:
-#      - master
+on: [push]
 jobs:
   build:
     runs-on: macos-latest
