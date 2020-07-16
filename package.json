@@ -6,7 +6,7 @@
     "watch": "chokidar '**/*' -i 'dist/**/*' -c 'npm run build'",
     "prestart": "npm run build",
     "start": "npm run watch & live-server dist",
-    "deploy": "gh-pages -d dist -m 'Update gh-pages [skip ci]'"
+    "deploy": "gh-pages -d dist -m 'Update gh-pages [skip ci]' -u 'Github Actions Bot <support+actions@github.com>'"
   },
   "repository": {
     "type": "git",
